@@ -1,0 +1,100 @@
+face.v face.251 face%2:32:00:: 0.025781  face%2:32:03::
+day.n day.40241 day%1:28:00:: 0.023898  day%1:28:00::
+bar.n bar.40148 bar_code%1:10:00:: 0.023778  bar%1:06:04::
+train.v train.171 train%2:31:01:: 0.024095  train%2:31:01::
+leave.v leave.164 leave%2:42:02:: 0.025528  leave%2:42:02::
+simple.a simple.40125 simple%3:00:02:: 0.022934  simple%3:00:02::
+fine.a fine.40017 fine%5:00:00:satisfactory:00 0.028329  fine%3:00:00::
+yew.n yew.40077 yew%1:20:00:: 0.030126  yew%1:20:00::
+play.v play.181 play%2:41:02:: 0.027274  play%2:41:03::
+channel.n channel.40159 channel%1:10:01:: 0.023096  P channel%1:17:00::
+post.n post.40169 post%1:10:00:: 0.023848  post%1:04:00::
+begin.v begin.813 begin%2:30:00:: 0.024062  begin%2:30:00::
+day.n day.40078 day%1:28:00:: 0.023898  day%1:28:00::
+chair.n chair.40038 chair%1:18:00:: 0.028067  chair%1:06:00::
+match.v match.126 match%2:42:00:: 0.022546  match%2:30:07::
+develop.v develop.187 develop%2:30:06:: 0.024838  develop%2:42:00::
+keep.v keep.135 keep%2:41:01:: 0.024837  keep%2:41:01::
+replace.v replace.115 replace%2:41:00:: 0.026583  replace%2:41:00::
+begin.v begin.690 begin%2:30:00:: 0.024062  begin%2:30:00::
+post.n post.30027 post%1:10:00:: 0.023848  P U post%1:10:00:: post_office%1:14:01::
+develop.v develop.183 develop%2:30:06:: 0.024838  develop%2:36:01::
+train.v train.148 train%2:31:01:: 0.024095  train%2:31:01::
+treat.v treat.123 treat%2:31:00:: 0.024317  treat%2:41:00:: 
+art.n art.40178 art%1:09:00:: 0.024000  art%1:04:00:: arts%1:09:00::
+strike.v strike.151 strike%2:37:00:: 0.025777  strike_dumb%2:37:00::
+feeling.n feeling.40089 feeling%1:09:03:: 0.026391  feeling%1:03:00::
+see.v see.109 see%2:31:00:: 0.026998  see%2:31:00::
+treat.v treat.101 treat%2:31:00:: 0.024317  treat%2:29:00::
+yew.n yew.40090 yew%1:20:00:: 0.030126  P yew%1:20:00::
+replace.v replace.107 replace%2:41:00:: 0.026583  replace%2:41:00::
+spade.n spade.40016 spade%1:06:00:: 0.025915  spade%1:06:00::
+feeling.n feeling.40099 feeling%1:09:03:: 0.026391  feeling%1:03:00::
+drift.v drift.078 drift%2:30:10:: 0.025335  drift%2:38:04::
+blind.a blind.40128 blind%5:00:00:irrational:00 0.025361  blind%3:00:00::
+carry.v carry.153 carry_out%2:36:00:: 0.025613  carry%2:35:02::
+begin.v begin.591 begin%2:30:00:: 0.024062  begin%2:30:00::
+simple.a simple.40177 simple%3:00:02:: 0.022934  simple%5:00:02:plain:01
+authority.n authority.30016 authority%1:07:02:: 0.023922  authority%1:07:02::
+bum.n bum.40100 bum%1:18:03:: 0.033096  bum%1:18:03::
+begin.v begin.729 begin%2:30:00:: 0.024062  begin%2:30:00::
+develop.v develop.137 develop%2:30:06:: 0.024838  develop%2:36:01::
+solemn.a solemn.40023 solemn%5:00:00:serious:00 0.029151  solemn%5:00:00:serious:00
+circuit.n circuit.30034 closed_circuit%1:06:00:: 0.024442  circuit_court_of_appeals%1:14:00::
+draw.v draw.117 draw%2:37:01:: 0.023183  draw_in%2:38:03:: draw_in%2:38:03::
+chair.n chair.40098 chair%1:18:00:: 0.028067  chair%1:06:00::
+blind.a blind.40182 blind%5:00:00:irrational:00 0.025361  blind%3:00:00::
+collaborate.v collaborate.063 collaborate%2:41:00:: 0.024334  collaborate%2:41:00::
+graceful.a graceful.40068 graceful%3:00:00:: 0.028950  graceful%5:00:00:gracious:00
+begin.v begin.730 begin%2:30:00:: 0.024062  begin%2:30:00::
+begin.v begin.702 begin%2:30:00:: 0.024062  begin%2:30:00::
+begin.v begin.605 begin%2:30:00:: 0.024062  begin%2:30:00::
+turn.v turn.178 turn_out%2:36:01:: 0.024023  turn%2:42:13::
+carry.v carry.075 carry_out%2:36:00:: 0.025613  carry%2:41:00::
+day.n day.40134 day%1:28:00:: 0.023898  day%1:28:00::
+begin.v begin.701 begin%2:30:00:: 0.024062  begin%2:30:00::
+restraint.n restraint.40111 restraint%1:04:00:: 0.024708  restraint%1:07:00::
+day.n day.30045 day%1:28:00:: 0.023898  day%1:28:00::
+leave.v leave.195 leave%2:42:02:: 0.025528  leave%2:38:01::
+art.n art.40218 art%1:09:00:: 0.024000  arts%1:09:00::
+bar.n bar.40336 bar_code%1:10:00:: 0.023778  bar%1:06:04::
+dyke.n dyke.40007 dyke%1:06:00:: 0.032050  dyke%1:06:00::
+free.a free.40134 free%5:00:00:unpaid:00 0.021453  free%5:00:02:unoccupied:00
+bar.n bar.40182 bar_code%1:10:00:: 0.023778  chocolate_bar%1:13:00::
+circuit.n circuit.40159 closed_circuit%1:06:00:: 0.024442  circuit%1:15:00::
+graceful.a graceful.40006 graceful%3:00:00:: 0.028950  graceful%3:00:00::
+lady.n lady.40069 lady%1:18:02:: 0.029843  lady%1:18:02::
+play.v play.189 play%2:41:02:: 0.027274  play%2:36:12::
+natural.a natural.30037 natural%5:00:00:normal:01 0.025121  natural%5:00:00:normal:01
+child.n child.30035 child%1:18:00:: 0.022353  U child%1:18:01::
+pull.v pull.171 pull%2:30:11:: 0.025456  pull%2:38:13::
+face.v face.216 face%2:32:00:: 0.025781  face%2:32:00::
+draw.v draw.119 draw%2:37:01:: 0.023183  draw%2:37:01::
+green.a green.40153 green%3:01:00:: 0.025610  green%5:00:00:chromatic:00
+begin.v begin.808 begin%2:30:00:: 0.024062  begin%2:30:00::
+begin.v begin.793 begin%2:30:00:: 0.024062  begin%2:30:00::
+post.n post.40258 post%1:10:00:: 0.023848  post_office%1:14:01::
+match.v match.117 match%2:42:00:: 0.022546  match%2:42:01::
+play.v play.118 play%2:41:02:: 0.027274  play%2:42:00::
+free.a free.40226 free%5:00:00:unpaid:00 0.021453  free%3:00:00::
+begin.v begin.700 begin%2:30:00:: 0.024062  begin%2:30:01::
+authority.n authority.30053 authority%1:07:02:: 0.023922  P authority%1:14:00::
+begin.v begin.598 begin%2:30:00:: 0.024062  begin%2:30:01::
+develop.v develop.132 develop%2:30:06:: 0.024838  develop%2:36:00::
+leave.v leave.174 leave%2:42:02:: 0.025528  leave%2:38:01::
+authority.n authority.40100 authority%1:07:02:: 0.023922  P authority%1:14:00::
+dress.v dress.159 dress_up%2:30:00:: 0.027805  dress%2:29:00::
+bum.n bum.40132 bum%1:18:03:: 0.033096  bum%1:08:00::
+dress.v dress.130 dress_up%2:30:00:: 0.027805  dress%2:29:00::
+oblique.a oblique.40036 oblique%5:00:00:indirect:02 0.026355  oblique%5:00:00:indirect:02
+dress.v dress.117 dress_up%2:30:00:: 0.027805  dress_up%2:29:04::
+find.v find.156 find%2:39:02:: 0.027196  find%2:40:00::
+drift.v drift.046 drift%2:30:10:: 0.025335  drift_away%2:37:03::
+fit.a fit.40069 fit%3:00:02:: 0.023619  fit%3:00:02::
+graceful.a graceful.40083 graceful%3:00:00:: 0.028950  graceful%3:00:00:: graceful%5:00:00:gracious:00
+use.v use.171 use%2:34:01:: 0.022250  use%2:34:01::
+carry.v carry.144 carry_out%2:36:00:: 0.025613  carry%2:32:02::
+call.v call.110 call%2:32:00:: 0.025276  call_for%2:42:00::
+treat.v treat.115 treat%2:31:00:: 0.024317  treat%2:41:00::
+wander.v wander.131 wander%2:38:00:: 0.026134  wander%2:38:02::
+bum.n bum.40156 bum%1:18:03:: 0.033096  U

@@ -1,0 +1,100 @@
+grip.n grip.40108 grip%1:07:00:: 0.023676  U grip%1:07:00::
+chair.n chair.40168 chair%1:18:00:: 0.028067  chair%1:06:00::
+find.v find.177 find%2:39:02:: 0.027196  find%2:40:02::
+bar.n bar.40324 bar_code%1:10:00:: 0.023778  bar%1:06:05::
+match.v match.113 match%2:42:00:: 0.022546  match%2:42:00::
+simple.a simple.40151 simple%3:00:02:: 0.022934  simple%3:00:02::
+blind.a blind.40132 blind%5:00:00:irrational:00 0.025361  U blind%3:00:00::
+day.n day.40357 day%1:28:00:: 0.023898  day%1:28:04::
+free.a free.40291 free%5:00:00:unpaid:00 0.021453  free%5:00:00:unpaid:00
+bar.n bar.40380 bar_code%1:10:00:: 0.023778  bar%1:06:00::
+mouth.n mouth.40204 mouth%1:18:00:: 0.027601  mouth%1:17:01::
+holiday.n holiday.40025 holiday%1:28:00:: 0.024129  U
+lady.n lady.40197 lady%1:18:02:: 0.029843  lady%1:18:02::
+nature.n nature.40049 nature%1:09:00:: 0.024289  nature%1:18:00:: nature%1:17:00::
+feeling.n feeling.40058 feeling%1:09:03:: 0.026391  feeling%1:03:00::
+cool.a cool.40139 cool%3:00:02:: 0.027001  U
+begin.v begin.710 begin%2:30:00:: 0.024062  begin%2:42:00::
+post.n post.40114 post%1:10:00:: 0.023848  U post%1:06:00::
+day.n day.40386 day%1:28:00:: 0.023898  day%1:28:00::
+begin.v begin.608 begin%2:30:00:: 0.024062  begin%2:30:00::
+colourless.a colorless.40111 colorless%3:00:03:: 0.028324  colorless%3:00:02::
+art.n art.40143 art%1:09:00:: 0.024000  P art%1:04:00::
+green.a green.40365 green%3:01:00:: 0.025610  P green%5:00:00:chromatic:00
+wander.v wander.108 wander%2:38:00:: 0.026134  wander%2:38:02::
+carry.v carry.172 carry_out%2:36:00:: 0.025613  carry%2:36:00::
+natural.a natural.40069 natural%5:00:00:normal:01 0.025121  natural_law%1:09:00:: P
+serve.v serve.128 serve%2:42:03:: 0.026121  serve%2:42:03::
+live.v live.141 live_on%2:42:00:: 0.026147  live%2:42:08::
+natural.a natural.40213 natural%5:00:00:normal:01 0.025121  natural%3:00:01::
+work.v work.134 work%2:41:04:: 0.025368  work_out%2:30:01::
+live.v live.174 live_on%2:42:00:: 0.026147  live%2:42:00::
+carry.v carry.176 carry_out%2:36:00:: 0.025613  carry%2:42:13::
+cool.a cool.40115 cool%3:00:02:: 0.027001  cool%3:00:01::
+find.v find.159 find%2:39:02:: 0.027196  find%2:40:00::
+dress.v dress.157 dress_up%2:30:00:: 0.027805  dress%2:29:07::
+serve.v serve.107 serve%2:42:03:: 0.026121  serve%2:42:00::
+detention.n detention.40013 detention%1:26:00:: 0.029880  detention_centre%1:06:00::
+grip.n grip.40210 grip%1:07:00:: 0.023676  grip%1:06:01::
+see.v see.127 see%2:31:00:: 0.026998  see%2:32:00::
+authority.n authority.40188 authority%1:07:02:: 0.023922  authority%1:07:00:: authority%1:14:00::
+simple.a simple.40232 simple%3:00:02:: 0.022934  simple%5:00:00:easy:01
+match.v match.105 match%2:42:00:: 0.022546  match%2:42:00::
+art.n art.40006 art%1:09:00:: 0.024000  arts%1:09:00::
+day.n day.40162 day%1:28:00:: 0.023898  day%1:28:03::
+natural.a natural.40218 natural%5:00:00:normal:01 0.025121  natural_science%1:09:00::
+replace.v replace.097 replace%2:41:00:: 0.026583  replace%2:41:00::
+free.a free.40255 free%5:00:00:unpaid:00 0.021453  free%3:00:00::
+serve.v serve.102 serve%2:42:03:: 0.026121  serve%2:34:00::
+channel.n channel.40212 channel%1:10:01:: 0.023096  channel%1:10:00:: 
+blind.a blind.40138 blind%5:00:00:irrational:00 0.025361  blind%5:00:00:irrational:00
+material.n material.40172 material%1:06:01:: 0.022891  material%1:27:00::
+turn.v turn.133 turn_out%2:36:01:: 0.024023  turn%2:42:13::
+free.a free.40243 free%5:00:00:unpaid:00 0.021453  free%3:00:00::
+day.n day.30022 day%1:28:00:: 0.023898  day%1:28:03::
+circuit.n circuit.40187 closed_circuit%1:06:00:: 0.024442  circuit%1:06:00::
+green.a green.40322 green%3:01:00:: 0.025610  green%5:00:00:chromatic:00
+use.v use.210 use%2:34:01:: 0.022250  use%2:34:01::
+child.n child.40108 child%1:18:00:: 0.022353  child%1:18:00::
+grip.n grip.40198 grip%1:07:00:: 0.023676  grip%1:18:00::
+use.v use.170 use%2:34:01:: 0.022250  use%2:34:01::
+serve.v serve.088 serve%2:42:03:: 0.026121  serve%2:42:02::
+blind.a blind.40073 blind%5:00:00:irrational:00 0.025361  blind%3:00:00::
+local.a local.40019 local%3:01:01:: 0.023139  local%3:01:01::
+leave.v leave.185 leave%2:42:02:: 0.025528  leave%2:38:01::
+find.v find.170 find%2:39:02:: 0.027196  find%2:40:02::
+lady.n lady.40116 lady%1:18:02:: 0.029843  P lady%1:18:02:: lady%1:18:01::
+circuit.n circuit.40049 closed_circuit%1:06:00:: 0.024442  circuit%1:06:01::
+begin.v begin.728 begin%2:30:00:: 0.024062  begin%2:42:04::
+blind.a blind.40018 blind%5:00:00:irrational:00 0.025361  blind%3:00:00::
+begin.v begin.835 begin%2:30:00:: 0.024062  begin%2:30:00::
+restraint.n restraint.40011 restraint%1:04:00:: 0.024708  restraint%1:07:00::
+train.v train.147 train%2:31:01:: 0.024095  train%2:41:00::
+channel.n channel.40200 channel%1:10:01:: 0.023096  television_channel%1:06:00:: 
+local.a local.40056 local%3:01:01:: 0.023139  local%3:00:01::
+church.n church.40165 church%1:14:00:: 0.029518  P church%1:14:00::
+day.n day.30049 day%1:28:00:: 0.023898  day%1:28:00::
+match.v match.101 match%2:42:00:: 0.022546  match%2:30:01::
+call.v call.161 call%2:32:00:: 0.025276  call%2:41:00::
+see.v see.151 see%2:31:00:: 0.026998  see%2:39:00::
+mouth.n mouth.40078 mouth%1:18:00:: 0.027601  mouth%1:08:01::
+authority.n authority.40140 authority%1:07:02:: 0.023922  authority%1:07:00:: authority%1:14:00::
+material.n material.40259 material%1:06:01:: 0.022891  material%1:27:00::
+collaborate.v collaborate.069 collaborate%2:41:00:: 0.024334  collaborate%2:41:00::
+use.v use.136 use%2:34:01:: 0.022250  use%2:41:14::
+material.n material.40025 material%1:06:01:: 0.022891  material%1:27:00::
+see.v see.136 see%2:31:00:: 0.026998  see%2:39:12::
+play.v play.159 play%2:41:02:: 0.027274  play%2:41:12::
+use.v use.191 use%2:34:01:: 0.022250  use%2:34:02::
+natural.a natural.40279 natural%5:00:00:normal:01 0.025121  natural%5:00:00:normal:01
+green.a green.40276 green%3:01:00:: 0.025610  green%5:00:00:chromatic:00
+natural.a natural.40307 natural%5:00:00:normal:01 0.025121  natural%5:00:00:spontaneous:00
+fatigue.n fatigue.40083 fatigue%1:26:00:: 0.024681  fatigue%1:26:02::
+spade.n spade.40050 spade%1:06:00:: 0.025915  spade%1:06:01::
+natural.a natural.40352 natural%5:00:00:normal:01 0.025121  natural%5:00:00:normal:01
+material.n material.40226 material%1:06:01:: 0.022891  material%1:10:00::
+circuit.n circuit.30023 closed_circuit%1:06:00:: 0.024442  P circuit%1:14:00::
+find.v find.121 find%2:39:02:: 0.027196  find_out%2:31:00::
+cool.a cool.30005 cool%3:00:02:: 0.027001  cool%3:00:01::
+fit.a fit.40135 fit%3:00:02:: 0.023619  fit%3:00:01::
+dyke.n dyke.40090 dyke%1:06:00:: 0.032050  U dyke%1:06:00::
