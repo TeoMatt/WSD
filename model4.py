@@ -32,6 +32,9 @@ from keras import regularizers
 import keras.backend as K
 
 
+import theano.tensor as tt
+
+
 
 
 
