@@ -23,6 +23,7 @@ from keras.losses import cosine_proximity
 
 from keras.layers import Dense, Input, LSTM, Embedding, Dropout, Activation
 from keras.layers.merge import concatenate
+from keras.layers.merge import average
 from keras.models import Model
 from keras.layers.normalization import BatchNormalization
 from keras.callbacks import EarlyStopping, ModelCheckpoint
@@ -154,7 +155,7 @@ sense_embeddings_ = get_embeddingBIS("test.csv")
 
 def own_model(train_forward_data, train_backward_data, train_sense_embedding, 
               val_forward_data=None, val_backward_data=None, val_sense_embedding=None,
-              n_units=100, dense_unints=200, is_training=True, EMBEDDING_DIM=100, epochs=15, batch_size=2048, init_word_vecs=None):
+              n_units=100, dense_unints=200, is_training=True, EMBEDDING_DIM=100, epochs=50, batch_size=2048, init_word_vecs=None):
 
     #is_training = False
 
@@ -200,19 +201,30 @@ def own_model(train_forward_data, train_backward_data, train_sense_embedding,
     embedded_backward = embedding_layer1(backward_input)
     backward_lstm = lstm_layer2(embedded_backward)
 
-    merged = concatenate([forward_lstm, backward_lstm])     
+    merged = average([forward_lstm, backward_lstm])     
     #merged = lstm_layer(merged)
            
     merged = Dropout(0.5)(merged) if is_training else merged
     merged = BatchNormalization()(merged)
 
-    merged = Dense(units=dense_unints, activation=act)(merged)
+    #merged = Dense(units=dense_unints, activation=act)(merged)
     #merged = Dense(units=dense_unints, activation=act, kernel_regularizer=regularizers.l2(0.1), activity_regularizer=regularizers.l1(0.1))(forward_lstm)
-    merged = Dropout(0.5)(merged) if is_training else merged
-    merged = BatchNormalization()(merged)
+    #merged = Dropout(0.5)(merged) if is_training else merged
+    #merged = BatchNormalization()(merged)
+
+    #merged = Dense(units=dense_unints, activation=act)(merged)
+    #merged = Dense(units=dense_unints, activation=act, kernel_regularizer=regularizers.l2(0.1), activity_regularizer=regularizers.l1(0.1))(forward_lstm)
+    #merged = Dropout(0.5)(merged) if is_training else merged
+    #merged = BatchNormalization()(merged)
+
+
+    merged = Dense(units=dense_unints)(merged)
+    #merged = Dense(units=dense_unints, activation=act, kernel_regularizer=regularizers.l2(0.1), activity_regularizer=regularizers.l1(0.1))(forward_lstm)
+    #merged = Dropout(0.5)(merged) if is_training else merged
+    #merged = BatchNormalization()(merged)
 
     
-    preds = Dense(units=EMBEDDING_DIM, activation='tanh')(merged) #activation=None'''
+    preds = Dense(units=EMBEDDING_DIM, activation='softmax')(merged) #activation=None'''
     
     ## train the model 
     model = Model(inputs=[forward_input, backward_input], outputs=preds)
@@ -224,9 +236,9 @@ def own_model(train_forward_data, train_backward_data, train_sense_embedding,
 
         # Create a loss function that adds the MSE loss to the mean of all squared activations of a specific layer
         def loss(y_true,y_pred):
-            #loss = cos_distance(y_true,y_pred)
-            loss = keras.losses.cosine_proximity(y_true, y_pred, axis=-1)
-            #return loss
+            loss = cos_distance(y_true,y_pred)
+            #loss = keras.losses.cosine_proximity(y_true, y_pred, axis=1)
+            return loss
 
             '''minimo_true = list(range(10000.0,10000.0,len(y_true)))
             minimo_pred = list(range(10000.0,10000.0,len(y_pred)))
@@ -253,18 +265,20 @@ def own_model(train_forward_data, train_backward_data, train_sense_embedding,
                             minimo_pred[indice] = d
                             minimo_pred_vec[indice] = j'''
 
-            print_op = tf.print("veri: \n", y_true, "\n" "e predetti: \n" ,y_pred)
-            with tf.control_dependencies([print_op]):
-                return K.identity(loss)	
+            #print_op = tf.print("veri: \n", y_true, "\n" "e predetti: \n" ,y_pred)
+            #with tf.control_dependencies([print_op]):
+                #return K.identity(loss)	
        
         # Return a function
         return loss
 
     
 
-    nadam = optimizers.Adam(clipnorm=1.) #, clipvalue=0.5
-    model.compile(loss='cosine_proximity', optimizer=nadam)
-    #model.compile(loss='mse', optimizer=nadam, metrics=[cos_distance])
+    #nadam = optimizers.Adam(clipnorm=1.) #, clipvalue=0.5
+    #model.compile(loss=custom_loss(), optimizer=nadam)
+    model.compile(loss='categorical_crossentropy',
+              optimizer='rmsprop',
+              metrics=['accuracy'])
     #model.compile(loss=cos_distance(train_sense_embedding,preds), optimizer=nadam)
     #model.compile(loss=keras.losses.cosine_proximity(train_sense_embedding, preds), optimizer=nadam)
     

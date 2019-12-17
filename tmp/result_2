@@ -1,100 +1,100 @@
-leave.v leave.184 leave%2:42:02:: 0.025528  leave%2:38:00::
-play.v play.166 play%2:41:02:: 0.027274  play%2:36:02::
-child.n child.30024 child%1:18:00:: 0.022353  child%1:18:01::
-use.v use.167 use%2:34:01:: 0.022250  use%2:34:01::
-strike.v strike.125 strike%2:37:00:: 0.025777  strike%2:35:02::
-art.n art.40060 art%1:09:00:: 0.024000  art%1:06:00::
-child.n child.40008 child%1:18:00:: 0.022353  child%1:18:00::
-strike.v strike.165 strike%2:37:00:: 0.025777  strike%2:35:08::
-play.v play.093 play%2:41:02:: 0.027274  play_off%2:33:00::
-circuit.n circuit.40140 closed_circuit%1:06:00:: 0.024442  circuit%1:15:00::
-leave.v leave.196 leave%2:42:02:: 0.025528  leave%2:42:02::
-draw.v draw.100 draw%2:37:01:: 0.023183  draw%2:37:03::
-fine.a fine.40131 fine%5:00:00:satisfactory:00 0.028329  fine%5:00:00:elegant:00 fine%5:00:00:precise:00
-treat.v treat.093 treat%2:31:00:: 0.024317  treat%2:41:00::
-carry.v carry.067 carry_out%2:36:00:: 0.025613  carry_over%2:30:00::
-free.a free.40065 free%5:00:00:unpaid:00 0.021453  free%5:00:00:unfixed:00
-face.v face.238 face%2:32:00:: 0.025781  face%2:32:00::
-train.v train.110 train%2:31:01:: 0.024095  train%2:33:00::
-find.v find.193 find%2:39:02:: 0.027196  find%2:31:09::
-sense.n sense.40220 sense%1:09:04:: 0.021830  sense_of_humour%1:07:00::
-turn.v turn.160 turn_out%2:36:01:: 0.024023  turn_over%2:40:00::
-leave.v leave.172 leave%2:42:02:: 0.025528  leave%2:42:02::
-lady.n lady.40135 lady%1:18:02:: 0.029843  lady%1:18:02::
-chair.n chair.40126 chair%1:18:00:: 0.028067  chair%1:06:00::
-mouth.n mouth.40065 mouth%1:18:00:: 0.027601  U mouth%1:08:01::
-free.a free.40069 free%5:00:00:unpaid:00 0.021453  free%3:00:00::
-face.v face.214 face%2:32:00:: 0.025781  face%2:32:00::
-leave.v leave.175 leave%2:42:02:: 0.025528  leave%2:38:00::
-day.n day.40036 day%1:28:00:: 0.023898  the_good_old_days%1:28:00::
-draw.v draw.067 draw%2:37:01:: 0.023183  draw%2:36:00::
-face.v face.218 face%2:32:00:: 0.025781  face%2:32:00::
-blind.a blind.30003 blind%5:00:00:irrational:00 0.025361  P blind%3:00:00::
-circuit.n circuit.40033 closed_circuit%1:06:00:: 0.024442  circuit%1:06:00::
-natural.a natural.40190 natural%5:00:00:normal:01 0.025121  natural%5:00:00:spontaneous:00
-green.a green.40025 green%3:01:00:: 0.025610  green%5:00:00:chromatic:00
-begin.v begin.653 begin%2:30:00:: 0.024062  begin%2:30:00::
-use.v use.175 use%2:34:01:: 0.022250  use%2:34:01::
-bar.n bar.40055 bar_code%1:10:00:: 0.023778  bar%1:06:06:: U
-begin.v begin.525 begin%2:30:00:: 0.024062  begin%2:42:04::
-match.v match.107 match%2:42:00:: 0.022546  match%2:30:01:: match%2:30:01::
-bar.n bar.40321 bar_code%1:10:00:: 0.023778  bar_code%1:10:00:: bar_code%1:10:00::
-begin.v begin.799 begin%2:30:00:: 0.024062  begin%2:42:04::
-chair.n chair.40017 chair%1:18:00:: 0.028067  U chair%1:06:00::
-authority.n authority.40206 authority%1:07:02:: 0.023922  authority%1:14:00::
-live.v live.136 live_on%2:42:00:: 0.026147  live%2:42:00::
-stress.n stress.40113 stress%1:26:02:: 0.024245  stress%1:26:01::
-use.v use.166 use%2:34:01:: 0.022250  use%2:34:01::
-bar.n bar.30043 bar_code%1:10:00:: 0.023778  U
-dress.v dress.156 dress_up%2:30:00:: 0.027805  dress_up%2:29:00::
-wander.v wander.147 wander%2:38:00:: 0.026134  wander%2:38:02::
-drive.v drive.072 drive%2:41:02:: 0.027422  drive%2:36:00::
-free.a free.40220 free%5:00:00:unpaid:00 0.021453  free%5:00:00:unpaid:00
-natural.a natural.40258 natural%5:00:00:normal:01 0.025121  natural_theology%1:09:00::
-live.v live.190 live_on%2:42:00:: 0.026147  live%2:42:08::
-drive.v drive.120 drive%2:41:02:: 0.027422  drive%2:35:00::
-art.n art.30022 art%1:09:00:: 0.024000  art%1:06:00::
-stress.n stress.40152 stress%1:26:02:: 0.024245  U
-dyke.n dyke.40019 dyke%1:06:00:: 0.032050  U dyke%1:06:00::
-use.v use.204 use%2:34:01:: 0.022250  use%2:34:01::
-simple.a simple.40093 simple%3:00:02:: 0.022934  simple%3:00:02::
-circuit.n circuit.40022 closed_circuit%1:06:00:: 0.024442  integrated_circuit%1:06:00::
-work.v work.162 work%2:41:04:: 0.025368  work%2:41:02::
-lady.n lady.40044 lady%1:18:02:: 0.029843  lady%1:18:02:: U
-sense.n sense.40038 sense%1:09:04:: 0.021830  sense%1:09:02::
-grip.n grip.40150 grip%1:07:00:: 0.023676  grip%1:04:00::
-develop.v develop.149 develop%2:30:06:: 0.024838  develop%2:42:00::
-see.v see.147 see%2:31:00:: 0.026998  see%2:38:00::
-bar.n bar.40137 bar_code%1:10:00:: 0.023778  bar%1:10:00::
-post.n post.40143 post%1:10:00:: 0.023848  post%1:06:00::
-circuit.n circuit.30051 closed_circuit%1:06:00:: 0.024442  P circuit%1:14:00::
-work.v work.160 work%2:41:04:: 0.025368  work%2:41:00::
-bar.n bar.40333 bar_code%1:10:00:: 0.023778  bar%1:06:04::
-begin.v begin.761 begin%2:30:00:: 0.024062  begin%2:42:04::
-chair.n chair.40215 chair%1:18:00:: 0.028067  chair%1:06:00::
-green.a green.40147 green%3:01:00:: 0.025610  green%3:01:01::
-call.v call.156 call%2:32:00:: 0.025276  call%2:32:02::
-use.v use.146 use%2:34:01:: 0.022250  use%2:41:04::
-child.n child.40136 child%1:18:00:: 0.022353  child%1:18:01::
-sense.n sense.40010 sense%1:09:04:: 0.021830  sense%1:09:05::
-natural.a natural.40195 natural%5:00:00:normal:01 0.025121  natural%3:00:01::
-restraint.n restraint.40055 restraint%1:04:00:: 0.024708  restraint%1:07:00::
-restraint.n restraint.40159 restraint%1:04:00:: 0.024708  restraint%1:26:00::
-material.n material.30068 material%1:06:01:: 0.022891  raw_material%1:27:00::
-church.n church.40174 church%1:14:00:: 0.029518  church%1:14:00::
-bar.n bar.40128 bar_code%1:10:00:: 0.023778  bar%1:06:05::
-post.n post.40237 post%1:10:00:: 0.023848  post%1:04:00::
-keep.v keep.119 keep%2:41:01:: 0.024837  keep_out%2:41:00::
-church.n church.40084 church%1:14:00:: 0.029518  church%1:14:00::
-restraint.n restraint.40116 restraint%1:04:00:: 0.024708  restraint%1:07:00::
-vital.a vital.40079 vital%5:00:00:indispensable:00 0.022732  vital%5:00:00:indispensable:00
-material.n material.40055 material%1:06:01:: 0.022891  material%1:27:00::
-call.v call.155 call%2:32:00:: 0.025276  call%2:32:03::
-detention.n detention.40062 detention%1:26:00:: 0.029880  detention%1:26:00::
-material.n material.30050 material%1:06:01:: 0.022891  material%1:27:00::
-dress.v dress.068 dress_up%2:30:00:: 0.027805  dress_up%2:36:00::
-fine.a fine.40196 fine%5:00:00:satisfactory:00 0.028329  fine%5:00:00:superior:02
-face.v face.255 face%2:32:00:: 0.025781  face%2:32:03::
-wander.v wander.139 wander%2:38:00:: 0.026134  wander%2:38:02::
-colourless.a colorless.40039 colorless%3:00:03:: 0.028324  colorless%3:00:02::
-fit.a fit.40001 fit%3:00:02:: 0.023619  fit%3:00:01::
+leave.v leave.184 leave%2:42:02:: 0.004233  leave%2:38:00::
+play.v play.166 play%2:41:02:: 0.007388  play%2:36:02::
+child.n child.30024 child%1:18:00:: 0.002133  child%1:18:01::
+use.v use.167 use%2:34:01:: 0.003067  use%2:34:01::
+strike.v strike.125 strike%2:37:00:: 0.003515  strike%2:35:02::
+art.n art.40060 art%1:09:00:: 0.001972  art%1:06:00::
+child.n child.40008 child%1:18:00:: 0.002133  child%1:18:00::
+strike.v strike.165 strike%2:37:00:: 0.003515  strike%2:35:08::
+play.v play.093 play%2:41:02:: 0.007388  play_off%2:33:00::
+circuit.n circuit.40140 circuit%1:15:00:: 0.005882  circuit%1:15:00::
+leave.v leave.196 leave%2:42:02:: 0.004233  leave%2:42:02::
+draw.v draw.100 draw%2:37:01:: 0.004577  draw%2:37:03::
+fine.a fine.40131 fine%5:00:00:superior:02 0.004039  fine%5:00:00:elegant:00 fine%5:00:00:precise:00
+treat.v treat.093 treat%2:31:00:: 0.004219  treat%2:41:00::
+carry.v carry.067 carry_out%2:30:00:: 0.004993  carry_over%2:30:00::
+free.a free.40065 free%3:00:00:: 0.002189  free%5:00:00:unfixed:00
+face.v face.238 face%2:33:00:: 0.006886  face%2:32:00::
+train.v train.110 restraint%1:07:00:: 0.003486  train%2:33:00::
+find.v find.193 find%2:31:10:: 0.005406  find%2:31:09::
+sense.n sense.40220 sense%1:09:04:: 0.002255  sense_of_humour%1:07:00::
+turn.v turn.160 turn%2:30:00:: 0.007164  turn_over%2:40:00::
+leave.v leave.172 leave%2:42:02:: 0.004233  leave%2:42:02::
+lady.n lady.40135 lady%1:18:02:: 0.005757  lady%1:18:02::
+chair.n chair.40126 chair%1:06:00:: 0.006127  chair%1:06:00::
+mouth.n mouth.40065 mouth%1:18:00:: 0.006887  U mouth%1:08:01::
+free.a free.40069 free%3:00:00:: 0.002189  free%3:00:00::
+face.v face.214 face%2:33:00:: 0.006886  face%2:32:00::
+leave.v leave.175 leave%2:42:02:: 0.004233  leave%2:38:00::
+day.n day.40036 day%1:28:00:: 0.002379  the_good_old_days%1:28:00::
+draw.v draw.067 draw%2:37:01:: 0.004577  draw%2:36:00::
+face.v face.218 face%2:33:00:: 0.006886  face%2:32:00::
+blind.a blind.30003 blind%5:00:00:irrational:00 0.003829  P blind%3:00:00::
+circuit.n circuit.40033 circuit%1:15:00:: 0.005882  circuit%1:06:00::
+natural.a natural.40190 natural%5:00:00:normal:01 0.002978  natural%5:00:00:spontaneous:00
+green.a green.40025 green%5:00:00:chromatic:00 0.005343  green%5:00:00:chromatic:00
+begin.v begin.653 begin%2:42:03:: 0.003730  begin%2:30:00::
+use.v use.175 use%2:34:01:: 0.003067  use%2:34:01::
+bar.n bar.40055 bar%1:06:00:: 0.003502  bar%1:06:06:: U
+begin.v begin.525 begin%2:42:03:: 0.003730  begin%2:42:04::
+match.v match.107 match%2:42:00:: 0.005368  match%2:30:01:: match%2:30:01::
+bar.n bar.40321 bar%1:06:00:: 0.003502  bar_code%1:10:00:: bar_code%1:10:00::
+begin.v begin.799 begin%2:42:03:: 0.003730  begin%2:42:04::
+chair.n chair.40017 chair%1:06:00:: 0.006127  U chair%1:06:00::
+authority.n authority.40206 authority%1:18:01:: 0.003579  authority%1:14:00::
+live.v live.136 live_on%2:42:00:: 0.004277  live%2:42:00::
+stress.n stress.40113 stress%1:26:02:: 0.003863  stress%1:26:01::
+use.v use.166 use%2:34:01:: 0.003067  use%2:34:01::
+bar.n bar.30043 bar%1:06:00:: 0.003502  U
+dress.v dress.156 dress_up%2:30:00:: 0.007433  dress_up%2:29:00::
+wander.v wander.147 wander%2:38:00:: 0.004712  wander%2:38:02::
+drive.v drive.072 drive%2:41:02:: 0.009430  drive%2:36:00::
+free.a free.40220 free%3:00:00:: 0.002189  free%5:00:00:unpaid:00
+natural.a natural.40258 natural%5:00:00:normal:01 0.002978  natural_theology%1:09:00::
+live.v live.190 live_on%2:42:00:: 0.004277  live%2:42:08::
+drive.v drive.120 drive%2:41:02:: 0.009430  drive%2:35:00::
+art.n art.30022 art%1:09:00:: 0.001972  art%1:06:00::
+stress.n stress.40152 stress%1:26:02:: 0.003863  U
+dyke.n dyke.40019 dyke%1:06:00:: 0.009363  U dyke%1:06:00::
+use.v use.204 use%2:34:01:: 0.003067  use%2:34:01::
+simple.a simple.40093 simple%5:00:02:plain:01 0.002800  simple%3:00:02::
+circuit.n circuit.40022 circuit%1:15:00:: 0.005882  integrated_circuit%1:06:00::
+work.v work.162 work%2:41:02:: 0.004906  work%2:41:02::
+lady.n lady.40044 lady%1:18:02:: 0.005757  lady%1:18:02:: U
+sense.n sense.40038 sense%1:09:04:: 0.002255  sense%1:09:02::
+grip.n grip.40150 grip%1:07:00:: 0.002301  grip%1:04:00::
+develop.v develop.149 develop%2:30:06:: 0.002971  develop%2:42:00::
+see.v see.147 see%2:39:02:: 0.007493  see%2:38:00::
+bar.n bar.40137 bar%1:06:00:: 0.003502  bar%1:10:00::
+post.n post.40143 post_office%1:14:01:: 0.002844  post%1:06:00::
+circuit.n circuit.30051 circuit%1:15:00:: 0.005882  P circuit%1:14:00::
+work.v work.160 work%2:41:02:: 0.004906  work%2:41:00::
+bar.n bar.40333 bar%1:06:00:: 0.003502  bar%1:06:04::
+begin.v begin.761 begin%2:42:03:: 0.003730  begin%2:42:04::
+chair.n chair.40215 chair%1:06:00:: 0.006127  chair%1:06:00::
+green.a green.40147 green%5:00:00:chromatic:00 0.005343  green%3:01:01::
+call.v call.156 call%2:32:02:: 0.006571  call%2:32:02::
+use.v use.146 use%2:34:01:: 0.003067  use%2:41:04::
+child.n child.40136 child%1:18:00:: 0.002133  child%1:18:01::
+sense.n sense.40010 sense%1:09:04:: 0.002255  sense%1:09:05::
+natural.a natural.40195 natural%5:00:00:normal:01 0.002978  natural%3:00:01::
+restraint.n restraint.40055 restraint%1:07:00:: 0.003486  restraint%1:07:00::
+restraint.n restraint.40159 restraint%1:07:00:: 0.003486  restraint%1:26:00::
+material.n material.30068 material%1:10:00:: 0.002693  raw_material%1:27:00::
+church.n church.40174 church%1:14:00:: 0.005768  church%1:14:00::
+bar.n bar.40128 bar%1:06:00:: 0.003502  bar%1:06:05::
+post.n post.40237 post_office%1:14:01:: 0.002844  post%1:04:00::
+keep.v keep.119 keep%2:41:01:: 0.003974  keep_out%2:41:00::
+church.n church.40084 church%1:14:00:: 0.005768  church%1:14:00::
+restraint.n restraint.40116 restraint%1:07:00:: 0.003486  restraint%1:07:00::
+vital.a vital.40079 vital%5:00:00:indispensable:00 0.002363  vital%5:00:00:indispensable:00
+material.n material.40055 material%1:10:00:: 0.002693  material%1:27:00::
+call.v call.155 call%2:32:02:: 0.006571  call%2:32:03::
+detention.n detention.40062 detention%1:26:00:: 0.008940  detention%1:26:00::
+material.n material.30050 material%1:10:00:: 0.002693  material%1:27:00::
+dress.v dress.068 dress_up%2:30:00:: 0.007433  dress_up%2:36:00::
+fine.a fine.40196 fine%5:00:00:superior:02 0.004039  fine%5:00:00:superior:02
+face.v face.255 face%2:33:00:: 0.006886  face%2:32:03::
+wander.v wander.139 wander%2:38:00:: 0.004713  wander%2:38:02::
+colourless.a colorless.40039 colorless%3:00:03:: 0.004442  colorless%3:00:02::
+fit.a fit.40001 fit%3:00:02:: 0.002050  fit%3:00:01::

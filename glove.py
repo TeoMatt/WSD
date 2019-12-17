@@ -3,7 +3,7 @@ import random
 
 random.seed(0)
 
-glove_dir = './data/glove.6B/'
+glove_dir = '/usr/home/studenti/sp171354/solomons/data/glove.6B/'
 
 
 def load_glove(size):
