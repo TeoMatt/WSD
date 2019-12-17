@@ -14,7 +14,7 @@ import keras
 from random import random
 from numpy import array
 from numpy import cumsum
-from matplotlib import pyplot
+#from matplotlib import pyplot
 from pandas import DataFrame
 
 from keras.models import Sequential
