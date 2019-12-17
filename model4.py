@@ -151,7 +151,7 @@ def cos2(a, b):
     return 1-cos
 
 def cosine_loss(x, y):
-    return K.clip((K.sum((1 - (x * y)), axis=-1) / (l2_normalize(x, axis=-1) * l2_normalize(y, axis=-1))) / 2, 0, 1)
+    return K.clip((K.sum((1 - (x * y)), axis=-1) / (norm(x) * norm(y))) / 2, 0, 1)
 
 def l2_normalize(x, axis):
     norm = K.sqrt(K.sum(K.square(x), axis=axis, keepdims=True))
@@ -280,7 +280,7 @@ def own_model(train_forward_data, train_backward_data, train_sense_embedding,
 
     #nadam = optimizers.Adam(clipnorm=1.) #, clipvalue=0.5
     #model.compile(loss=custom_loss(), optimizer=nadam)
-    model.compile(loss=custom_loss(), optimizer='adam', metrics=['accuracy', 'cosine_proximity'])
+    model.compile(loss=cosine_loss, optimizer='adam', metrics=['accuracy', 'cosine_proximity'])
     #model.compile(loss=cos_distance(train_sense_embedding,preds), optimizer=nadam)
     #model.compile(loss=keras.losses.cosine_proximity(train_sense_embedding, preds), optimizer=nadam)
     
