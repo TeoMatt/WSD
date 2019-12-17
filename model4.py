@@ -184,11 +184,6 @@ def own_model(train_forward_data, train_backward_data, train_sense_embedding,
                                 weights=[init_word_vecs],
                                 input_length=MAX_SEQUENCE_LENGTH,
                                 trainable=False)
-    '''embedding_layer2 = Embedding(len(word_to_id),
-                                EMBEDDING_DIM,
-                                weights=[init_word_vecs],
-                                input_length=MAX_SEQUENCE_LENGTH,
-                                trainable=False)'''
 
     lstm_layer1 = LSTM(n_units, dropout=0.5, recurrent_dropout=0.5)
     lstm_layer2 = LSTM(n_units, dropout=0.5, recurrent_dropout=0.5)
@@ -201,7 +196,7 @@ def own_model(train_forward_data, train_backward_data, train_sense_embedding,
     embedded_backward = embedding_layer1(backward_input)
     backward_lstm = lstm_layer2(embedded_backward)
 
-    merged = merge([forward_lstm, backward_lstm], mode='concat')     
+    merged = concatenate([forward_lstm, backward_lstm])     
     #merged = lstm_layer(merged)
            
     #merged = Dropout(0.5)(merged) if is_training else merged
