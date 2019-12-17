@@ -271,10 +271,10 @@ def own_model(train_forward_data, train_backward_data, train_sense_embedding,
         return loss
 
     def cosine_loss(x, y):
-        return K.clip((1 - (x * y).sum(axis=-1) / (norm(x) * norm(y))) / 2, 0, 1)
+        return K.clip(k.sum((1 - (x * y)), axis=-1) / (norm(x) * norm(y)) / 2, 0, 1)
 
     def norm(x):
-        return K.sqrt(K.maximum(K.square(x).sum(axis=-1), np.finfo(x.dtype).tiny))
+        return K.sqrt(K.maximum(K.sum(K.square(x),axis=-1), np.finfo(x.dtype).tiny))
 
     
 
