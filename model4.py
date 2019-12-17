@@ -204,7 +204,7 @@ def own_model(train_forward_data, train_backward_data, train_sense_embedding,
     
     backward_input = Input(shape=(MAX_SEQUENCE_LENGTH, ), dtype='int32', name='backward_input')
     embedded_backward = embedding_layer1(backward_input)
-    backward_lstm = lstm_layer2(embedded_backward)
+    backward_lstm = lstm_layer2(embedded_backward)  
 
     merged = concatenate([forward_lstm, backward_lstm])     
     #merged = lstm_layer(merged)
@@ -241,7 +241,7 @@ def own_model(train_forward_data, train_backward_data, train_sense_embedding,
 
         # Create a loss function that adds the MSE loss to the mean of all squared activations of a specific layer
         def loss(y_true,y_pred):
-            loss = cos_distance(y_true,y_pred)
+            loss = cos_distance_bis(y_true,y_pred)
             #loss = keras.losses.cosine_proximity(y_true, y_pred, axis=1)
             return loss
 
@@ -277,15 +277,9 @@ def own_model(train_forward_data, train_backward_data, train_sense_embedding,
         # Return a function
         return loss
 
-    
-
-    
-
     #nadam = optimizers.Adam(clipnorm=1.) #, clipvalue=0.5
     #model.compile(loss=custom_loss(), optimizer=nadam)
-    model.compile(loss=cosine_loss,
-              optimizer='adam',
-              metrics=['accuracy', 'cosine_proximity'])
+    model.compile(loss=custom_loss, optimizer='adam', metrics=['accuracy', 'cosine_proximity'])
     #model.compile(loss=cos_distance(train_sense_embedding,preds), optimizer=nadam)
     #model.compile(loss=keras.losses.cosine_proximity(train_sense_embedding, preds), optimizer=nadam)
     
