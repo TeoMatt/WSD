@@ -158,7 +158,8 @@ def l2_normalize(x, axis):
     return K.sign(x) * K.maximum(K.abs(x), K.epsilon()) / K.maximum(norm, K.epsilon())
 
 def norm(x):
-    return K.sqrt(K.maximum(K.sum(K.square(x),axis=-1), np.finfo(x.dtype).tiny))
+    #return K.sqrt(K.maximum(K.sum(K.square(x),axis=-1), np.finfo(x.dtype).tiny))
+    return K.sqrt(K.maximum(K.sum(K.square(x),axis=-1), np.finfo('float64').tiny))
 #####################################################################################################################
 sense_embeddings_ = get_embeddingBIS("test.csv")
 #####################################################################################################################
