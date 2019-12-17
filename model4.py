@@ -135,9 +135,7 @@ def cos_distance(y_true, y_pred):
     return K.mean(1 - K.sum((y_true * y_pred), axis=1)) #mettere 0 o 1
 
 def cos_distance_bis(y_true, y_pred):
-    def l2_normalize(x, axis):
-        norm = K.sqrt(K.sum(K.square(x), axis=axis, keepdims=True))
-        return K.sign(x) * K.maximum(K.abs(x), K.epsilon()) / K.maximum(norm, K.epsilon())
+    
     y_true = l2_normalize(y_true, axis=-1)
     y_pred = l2_normalize(y_pred, axis=-1)
     return K.mean(y_true * y_pred, axis=-1)
@@ -152,6 +150,15 @@ def cos2(a, b):
     #return 1-(np.dot(vA, vB) / (np.sqrt(np.dot(vA,vA)) * np.sqrt(np.dot(vB,vB))))
     return 1-cos
 
+def cosine_loss(x, y):
+    return K.clip((K.sum((1 - (x * y)), axis=-1) / (l2_normalize(x, axis=-1) * l2_normalize(y, axis=-1))) / 2, 0, 1)
+
+def l2_normalize(x, axis):
+    norm = K.sqrt(K.sum(K.square(x), axis=axis, keepdims=True))
+    return K.sign(x) * K.maximum(K.abs(x), K.epsilon()) / K.maximum(norm, K.epsilon())
+
+def norm(x):
+    return K.sqrt(K.maximum(K.sum(K.square(x),axis=-1), np.finfo(x.dtype).tiny))
 #####################################################################################################################
 sense_embeddings_ = get_embeddingBIS("test.csv")
 #####################################################################################################################
@@ -270,11 +277,7 @@ def own_model(train_forward_data, train_backward_data, train_sense_embedding,
         # Return a function
         return loss
 
-    def cosine_loss(x, y):
-        return K.clip(K.sum((1 - (x * y)), axis=-1) / (norm(x) * norm(y)) / 2, 0, 1)
-
-    def norm(x):
-        return K.sqrt(K.maximum(K.sum(K.square(x),axis=-1), np.finfo(x.dtype).tiny))
+    
 
     
 
