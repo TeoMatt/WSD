@@ -32,7 +32,7 @@ from keras import regularizers
 import keras.backend as K
 
 
-import theano.tensor as tt
+
 
 
 
@@ -271,10 +271,10 @@ def own_model(train_forward_data, train_backward_data, train_sense_embedding,
         return loss
 
     def cosine_loss(x, y):
-        return tt.clip((1 - (x * y).sum(axis=-1) / (norm(x) * norm(y))) / 2, 0, 1)
+        return K.clip((1 - (x * y).sum(axis=-1) / (norm(x) * norm(y))) / 2, 0, 1)
 
     def norm(x):
-        return tt.sqrt(tt.maximum(tt.sqr(x).sum(axis=-1), np.finfo(x.dtype).tiny))
+        return K.sqrt(K.maximum(K.square(x).sum(axis=-1), np.finfo(x.dtype).tiny))
 
     
 
