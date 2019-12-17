@@ -18,7 +18,7 @@ from numpy import cumsum
 from pandas import DataFrame
 
 from keras.models import Sequential
-from keras.layers import Bidirectional
+from keras.layers import Bidirectional, merge
 from keras.losses import cosine_proximity   
 
 from keras.layers import Dense, Input, LSTM, Embedding, Dropout, Activation
@@ -201,7 +201,7 @@ def own_model(train_forward_data, train_backward_data, train_sense_embedding,
     embedded_backward = embedding_layer1(backward_input)
     backward_lstm = lstm_layer2(embedded_backward)
 
-    merged = concat([forward_lstm, backward_lstm])     
+    merged = merge([forward_lstm, backward_lstm], mode='concat')     
     #merged = lstm_layer(merged)
            
     #merged = Dropout(0.5)(merged) if is_training else merged
