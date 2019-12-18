@@ -213,10 +213,10 @@ def own_model(train_forward_data, train_backward_data, train_sense_embedding,
     merged = Dropout(0.5)(merged) if is_training else merged
     merged = BatchNormalization()(merged)
 
-    preds = Dense(units=EMBEDDING_DIM, activation=None)(merged)
-    #merged = Dense(units=dense_unints, activation=act, kernel_regularizer=regularizers.l2(0.1), activity_regularizer=regularizers.l1(0.1))(forward_lstm)
-    #merged = Dropout(0.5)(merged) if is_training else merged
-    #merged = BatchNormalization()(merged)
+    #merged = Dense(units=EMBEDDING_DIM, activation=act)(merged)
+    merged = Dense(units=dense_unints, activation=act, kernel_regularizer=regularizers.l2(0.1), activity_regularizer=regularizers.l1(0.1))(forward_lstm)
+    merged = Dropout(0.5)(merged) if is_training else merged
+    merged = BatchNormalization()(merged)
 
     #merged = Dense(units=dense_unints, activation=act)(merged)
     #merged = Dense(units=dense_unints, activation=act, kernel_regularizer=regularizers.l2(0.1), activity_regularizer=regularizers.l1(0.1))(forward_lstm)
@@ -230,7 +230,7 @@ def own_model(train_forward_data, train_backward_data, train_sense_embedding,
     #merged = BatchNormalization()(merged)
 
     
-    #preds = Dense(units=EMBEDDING_DIM, activation='tanh')(merged) #activation=None'''
+    preds = Dense(units=EMBEDDING_DIM, activation=None)(merged) #activation=None'''
     
     ## train the model 
     model = Model(inputs=[forward_input, backward_input], outputs=preds)
