@@ -230,7 +230,7 @@ def own_model(train_forward_data, train_backward_data, train_sense_embedding,
     #merged = BatchNormalization()(merged)
 
     
-    preds = Dense(units=EMBEDDING_DIM, activation='tanh')(merged) #activation=None'''
+    preds = Dense(units=EMBEDDING_DIM, activation=None)(merged) #activation=None'''
     
     ## train the model 
     model = Model(inputs=[forward_input, backward_input], outputs=preds)
@@ -280,7 +280,7 @@ def own_model(train_forward_data, train_backward_data, train_sense_embedding,
 
     #nadam = optimizers.Adam(clipnorm=1.) #, clipvalue=0.5
     #model.compile(loss=custom_loss(), optimizer=nadam)
-    model.compile(loss=cosine_loss, optimizer='adam', metrics=['accuracy', 'cosine_proximity'])
+    model.compile(loss='mse', optimizer='adam', metrics=['accuracy', 'cosine_proximity'])
     #model.compile(loss=cos_distance(train_sense_embedding,preds), optimizer=nadam)
     #model.compile(loss=keras.losses.cosine_proximity(train_sense_embedding, preds), optimizer=nadam)
     
