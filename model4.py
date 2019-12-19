@@ -199,11 +199,11 @@ def own_model(train_forward_data, train_backward_data, train_sense_embedding,
     lstm_layer1 = LSTM(n_units, dropout=0.5, recurrent_dropout=0.5)
     lstm_layer2 = LSTM(n_units, dropout=0.5, recurrent_dropout=0.5)
     
-    forward_input = Input(shape=(MAX_SEQUENCE_LENGTH, ), dtype='int32', name='forward_input')
+    forward_input = Input(shape=(MAX_SEQUENCE_LENGTH, ), dtype='float64', name='forward_input')
     embedded_forward = embedding_layer1(forward_input)
     forward_lstm = lstm_layer1(embedded_forward)
     
-    backward_input = Input(shape=(MAX_SEQUENCE_LENGTH, ), dtype='int32', name='backward_input')
+    backward_input = Input(shape=(MAX_SEQUENCE_LENGTH, ), dtype='float64', name='backward_input')
     embedded_backward = embedding_layer1(backward_input)
     backward_lstm = lstm_layer2(embedded_backward)  
 
